@@ -66,9 +66,9 @@ const filter = arr.filter((item) => {
 
 console.warn("\nFiltered value from array : ", filter);
 
-const result = arr.reduce((acc, item) => {});
+// const reduce = arr.reduce((acc, item) => {});
+// console.warn("\nReduced value from array : ", reduce);
 
-console.warn("\nFiltered value from array : ", filter);
 
 arr = [0, 1, "2", 3, 4, 5, 6, 7]; // in JavaScript different type of data possible to assign in array. if restrict this then use typescript.
 console.log("\n", arr);
@@ -93,6 +93,7 @@ console.log(str1.substr(5, 4));
 console.log(str1.substr(5));
 
 console.log(str1.indexOf("t"));
+
 
 // Functions
 let ans = mult(1, 3);
