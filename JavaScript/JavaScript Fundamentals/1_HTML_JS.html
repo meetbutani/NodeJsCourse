@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1_HTML_JS</title>
+</head>
+<body>
+
+    <button type="button" onclick="document.getElementById('hello').innerHTML = 'Hello JavaScript...!'">
+        Hello Click
+    </button>
+    <p id="hello">JavaScript can change the content of HTML...!</p>
+    
+    
+    <button type="button" id="date" onclick="document.getElementById('paraID').innerHTML = Date()">
+        Date Click
+    </button>
+    <p id="paraID"></p>
+    
+    <button type="button" onclick="document.getElementById('link').click()">
+        Click link
+    </button>
+    
+    <a href="#" id="link">Click Here</a>
+
+    <button type="button" onclick="document.getElementById('link2').href='##';document.getElementById('link2').click()">
+        Change link
+    </button>
+    
+    <a href="#" id="link2">Click Here</a>
+</body>
+</html>
